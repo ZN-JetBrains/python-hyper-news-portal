@@ -1,0 +1,13 @@
+{% extends "news/base.html" %}
+
+{% block page_content %}
+    <main>
+        {% if article %}
+            <h2>{{ article.title }}</h2>
+            <p>{{ article.created }}</p>
+            <p>{{ article.text }}</p>
+        {% endif %}
+
+        <a href="{% url 'news:news' %}" target="_blank">News</a>
+    </main>
+{% endblock %}

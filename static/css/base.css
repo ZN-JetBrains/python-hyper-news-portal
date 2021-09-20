@@ -1,0 +1,11 @@
+html {
+    display: table;
+    margin: auto;
+    background-color: burlywood;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
